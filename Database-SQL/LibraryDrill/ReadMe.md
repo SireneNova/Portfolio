@@ -1,0 +1,1 @@
+An exercise in creating and modifying databases in SQL Server. As part of a homework assignment, I designed a fictitious library system with borrowers, books, authors, and more. Then I designed queries and procedures to access information as requested by the homework assignment questions. 
