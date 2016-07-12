@@ -127,9 +127,9 @@ class MyForm(wx.Frame): #the window, where you put buttons and things
         #cursor = conn.execute("SELECT * from Checks where oid = (SELECT max(oid) from Checks)")
         #rows = cursor.fetchall()
         conn.commit()
-        refresh = datetime.fromtimestamp(now).strftime('%m/%d/%Y %H:%M:%S') #ADD THIS IN FOR REFRESHING THE DATE
+        refresh = datetime.fromtimestamp(now).strftime('%m/%d/%Y %H:%M:%S') 
         conn.commit()
-        Text=wx.StaticText(panel, -1, 'Last checked: '+ refresh, (100, 175))#ADD THIS LINE FOR REFRESHING THE DATE
+        Text=wx.StaticText(panel, -1, 'Last checked: '+ refresh, (100, 175))
                                 
 if __name__ == "__main__":
     app = wx.App(False)
