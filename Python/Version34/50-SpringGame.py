@@ -1,7 +1,8 @@
 
+input("Press Enter to continue. Enter answers when prompted...")
+
 name=input('What is your name? ')
 
-input("Press Enter to continue. Enter answers when prompted...")
 input('You are out in a field scanning for 4 leaf clovers.')
 input('You see a bunny in the distance wearing a bowtie carrying an empty basket.')
 input('Clearly it\'s the Easter Bunny hiding eggs for Easter!')
