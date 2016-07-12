@@ -36,6 +36,7 @@ print('')
 print('Drill 3:')
 for i in range(8,1,-2):
     print(i) 
+##note: range(8,0, -2) achieves the same result.
 
 ##4. Extra - Converting tuple to range
 print('')
