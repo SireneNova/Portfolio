@@ -2,7 +2,7 @@ The drills here are assignments from The Tech Academy.
 </br></br>
 drill40 is a sqlite assignment where I created and queried a database of alien and human information in Python. The assignment questions are commented within the document. 
 </br></br>
-drillp65datetime is an exercise in using the time and datetime packages. The program displays when a fictional store chain is open in different cities throughout the world based on the actual times there.
+drillp65datetime is an exercise in using the time and datetime packages. The program displays when a fictional store chain is open in different cities throughout the world based on the real times there.
 </br></br>
 drillP67 moves text files from one folder to another if they have been modified within 24 hours. The source and destination folders must be selected by editing lines in the program. It utilizes the shutil package. 
 I learned that, even though os package commands will display file paths with backslashes in output, when you input a file path, Python still interprets "\" as "ignore the next character", 
@@ -12,4 +12,4 @@ drillP68dbftGui builds off drillP67 by including a wx GUI that allows users to s
 </br></br>
 drillP69dbftGuiDate builds off the above two drills by displaying the date and time of the last check in the GUI. 
 It does this by storing the dates and times of each check in a database, using sqlite, and displaying the latest entry.
-At first I tried to get the time to update upon click by refreshing the wx panel after a check. The panel has a command to show the last time checked from the database. This didn't work out though. Ultimately a mentor suggested just overwriting the timestamp when the button is clicked.
+At first I tried to get the time to update immediately after a check by trying to get the wx panel to refresh after clicking the check button. The panel has a command to show the last time checked from the database. This didn't work out though. Ultimately a mentor suggested just overwriting the timestamp when the button is clicked.
