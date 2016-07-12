@@ -1,1 +1,1 @@
-Final Python project of my choice. The program imports dummy sale data from a file and displays it in dynamic bar graphs. It integrates Excel, SQL, and graphical display through the use of the Python packages numpy, matplotlib, csv, and sqlite3.
+Final Python project of my choice. The program imports dummy sale data from the All.csv file and displays it in dynamic bar graphs. It integrates Excel, SQL, and graphical display through the use of the Python packages numpy, matplotlib, csv, and sqlite3.
