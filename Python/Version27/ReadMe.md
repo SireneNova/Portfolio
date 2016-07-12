@@ -12,4 +12,4 @@ drillP68dbftGui builds off drillP67 by including a wx GUI that allows users to s
 </br></br>
 drillP69dbftGuiDate builds off the above two drills by displaying the date and time of the last check in the GUI. 
 It does this by storing the dates and times of each check in a database, using sqlite, and displaying the latest entry.
-At first I tried to get the time to update by refreshing the wx panel after a check. The panel has a command to show the last time checked from the database. Updating this way didn't work out though. Ultimately a mentor suggested just overwriting the timestamp when the button is clicked.
+At first I tried to get the time to update upon click by refreshing the wx panel after a check. The panel has a command to show the last time checked from the database. This didn't work out though. Ultimately a mentor suggested just overwriting the timestamp when the button is clicked.
