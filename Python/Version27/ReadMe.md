@@ -1,6 +1,6 @@
 The drills here are assignments from The Tech Academy. 
 </br></br>
-drill40 is an assignment in sqlite where I created and queried a database of aliens and people in Python. The assignment questions are commented within the document. 
+drill40 is a sqlite assignment where I created and queried a database of alien and human information in Python. The assignment questions are commented within the document. 
 </br></br>
 drillp65datetime is an exercise in using the time and datetime packages. The program displays when a fictional store chain is open in different cities throughout the world based on the actual times there.
 </br></br>
