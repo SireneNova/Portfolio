@@ -16,4 +16,4 @@ At first I tried to get the time to update immediately after a check by setting 
 </br></br>
 The Sale Viewer is a final project of my choosing.
 </br></br>
-The wxGUI folder contains a wx drill wxGui.py. The image files are attachments that are used by it.
+The wxGUI folder contains a the drill wxGui.py. The image files are attachments that are used by it.
