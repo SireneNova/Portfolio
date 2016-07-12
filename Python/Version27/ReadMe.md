@@ -13,3 +13,7 @@ drillP68dbftGui builds off drillP67 by including a wx GUI that allows users to s
 drillP69dbftGuiDate builds off the above two drills by displaying the date and time of the last check in the GUI. 
 It does this by storing the dates and times of each check in a database, using sqlite, and displaying the latest entry.
 At first I tried to get the time to update immediately after a check by setting the the wx panel to refresh after clicking the check button. The panel has a command to show the last time checked from the database. This didn't work out though. Ultimately a mentor suggested just overwriting the timestamp when the button is clicked.
+</br></br>
+The Sale Viewer is a final project of my choosing.
+</br></br>
+The wxGUI folder contains a wx drill wxGui.py. The image files are attachments that are used by it.
