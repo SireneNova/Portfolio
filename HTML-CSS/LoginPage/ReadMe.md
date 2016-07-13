@@ -8,4 +8,4 @@ Through the design process, I learned:
 * That color codes have to have a # sign to work unless they are words.
 * That some browsers have individual CSS capabilities. I tried to make it as broadly compatible as possible.
 
-Many effects I desired took patience to figure out, but pretty much every one possible to achieve. I was really impressed with the capabilities of this markup language combo.
+Many effects I desired took patience to figure out, but pretty much every one was possible to achieve. I was really impressed with the capabilities of this markup language combo.
