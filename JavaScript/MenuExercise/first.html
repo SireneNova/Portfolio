@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link href="lightbox2-master\lightbox2-master\src\css\lightbox.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>News</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> <!--linking with css style sheet, file in same directory-->
+	<!--[if lt IE 9]> 
+    <script> 
+      document.createElement("article");
+      document.createElement("aside");
+      document.createElement("footer");
+      document.createElement("header");
+      document.createElement("main");
+      document.createElement("nav");
+      document.createElement("section");
+    </script>
+    <![endif]-->
+	<!--^conditional comment, for older ie versions than 9, javascrip specs-->
+  </head>
+  <body>
+    <header class="banner"> <!--css style element-->
+      <h1>News</h1>
+      <p>Local and National News</p>
+    </header>
+	
+	 <nav> <!--contains main navigation elements-->
+     	<ul class=ul1> <!--unordered list-->
+			<li class=li1 id=s id=b><a href="#" >JS Menu</a></li>
+			<li class=li1><a href="#">Home</a></li> <!--list elements w links-->
+			<li class=li1><a href="#">Archives</a></li>
+			<li class=li1><a href="#">About</a></li>
+			<li class="dropdown">
+				<a href=#class="dropbtn">CSS Menu</a>
+				<div class="dropdown-content">
+				<a href="#">Archives</a>
+				<a href="#">Contact</a>
+				<a href="#">About</a>
+				</div>
+			</li>
+		<ul class=ul2>
+					<li class=li2 id=b><a href="#">Archives</a></li>
+					<li class=li2 id=b><a href="#">Contact</a></li>
+					<li class=li2 id=b><a href="#">About</a></li>
+		</ul>
+		</ul>
+
+     </nav>
+
+    <main> <!--where main content located, sections below for local and national news-->
+     <section>
+        <h2>Local News</h2>
+        <article>
+          <header>
+            <a href="pics/burn.jpg" data-lightbox="image-1" data-title="Burning Barn Rescue"><h3>Fire fighters rescue man from building</h3></a>
+            <p>(author, date)</p>
+          </header>
+          <p>This is the story text. This is the story text.</p>
+          <p>This is the story text. This is the story text.</p>
+        </article>
+
+        <article>
+          <header>
+            <a href="pics/library.jpg" data-lightbox="image-1" data-title="New Library Will Have Windows"><h3>New library to be built</h3></a>
+            <p>(author, date)</p>
+          </header>
+          <p>This is the story text. This is the story text.</p>
+          <p>This is the story text. This is the story text.</p>
+        </article>
+      </section>
+	  
+	  <section>
+        <h2>National News</h2>
+        <article>
+          <header>
+            <a href="pics/snow.jpg" data-lightbox="image-1" data-title="Bridge Closed Due to Storm"><h3>Snow storm is making travel difficult</h3></a>
+            <p>(author, date)</p>
+          </header>
+          <p>This is the story text. This is the story text.</p>
+          <p>This is the story text. This is the story text.</p>
+        </article>
+
+        <article>
+          <header>
+            <a href="pics/power.jpg" data-lightbox="image-1" data-title="Power Outage Night View"><h3>Thousands are without power</h3></a>
+            <p>(author, date)</p>
+          </header>
+          <p>This is the story text. This is the story text.</p>
+          <p>This is the story text. This is the story text.</p>
+        </article>
+      </section>
+    </main>
+	
+	 <aside> <!--separate from but related to content around it depending on where you put it. in this case its related to webpage as a whole.-->
+      <h2>Be a news reporter</h2>
+      <p>If you see news happening - Send us a Text.</p>
+    </aside>
+    
+	<footer> <!--footer for whole page (contact info or something), could be for specific sections-->
+      <p>Footer Information</p>
+    </footer>
+  </body>
+</html>
+
+<script type="text/javascript" src="jquery-1.12.0.js"></script>
+<script type="text/javascript" src="news.js"></script>
+<script src="lightbox2-master\lightbox2-master\src\js\lightbox.js"></script>
+
+<!--since we used new elements, older browsers may not work-->
