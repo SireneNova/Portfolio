@@ -1,8 +1,9 @@
 ###Database and SQL Work
 ---
 ####Library Database
-LibraryDrill.sql is an exercise in creating and modifying databases in SQL Server. It fulfills a course assignment.
 ___
+LibraryDrill.sql is an exercise in creating and modifying databases in SQL Server. It fulfills a course assignment.
+
 ####Objective
 * Create a database schema for a library management system following a given outline of table and column names.
   * Example: Make table BOOK with columns BookID, Title, PublisherName.
