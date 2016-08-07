@@ -1,16 +1,16 @@
-####Login Page
+###Login Page
 
 All files are also contained in the zipped folder.
 ___
-#####Objective
+####Objective
 Create a login page using HTML5 and CSS3.
 
-#####Steps Taken
+####Steps Taken
 * Made a login page in basic HTML, loginstyled.html.
 * Made a separate CSS file to provide the styling, loginstyle.css.
 * Included wing images and soft gradients for a heavenly 3-D look.
 
-#####Results
+####Results
 Through the design process, I learned:
 * How to float elements outside of margins and many other position tricks. 
 * How to apply various gradients.
