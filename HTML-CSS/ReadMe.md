@@ -1,1 +1,3 @@
-HTML and CSS work
+###HTML and CSS Work
+---
+The LoginPage folder contains an HTML/CSS login page and more details inside.
