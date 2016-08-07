@@ -2,7 +2,6 @@
 ___
 
 ####Library Database
-___
 LibraryDrill.sql is an exercise in creating and modifying databases in SQL Server. It fulfills a course assignment.
 
 ####Objective
