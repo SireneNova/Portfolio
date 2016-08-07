@@ -1,6 +1,6 @@
-###Database and SQL Work
+##Database and SQL Work
 ---
-####Library Database
+###Fantasy Library Database
 ___
 LibraryDrill.sql is an exercise in creating and modifying databases in SQL Server. It fulfills a course assignment.
 
