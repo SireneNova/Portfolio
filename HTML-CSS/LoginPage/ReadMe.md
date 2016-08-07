@@ -1,5 +1,16 @@
-A login page to heaven made with HTML5 and CSS3. These files are also contained in the zipped folder.
+####Login Page
 
+All files are also contained in the zipped folder.
+___
+####Objective
+Create a login page using HTML5 and CSS3.
+
+####Steps Taken
+* Made a login page in basic HTML, loginstyled.html.
+* Made a separate CSS file to provide the styling, loginstyle.css.
+* Included wing images for a heavenly look.
+
+####Results
 Through the design process, I learned:
 * How to float elements outside of margins and many other position tricks. 
 * How to apply various gradients.
@@ -8,4 +19,4 @@ Through the design process, I learned:
 * That color codes have to have a # sign to work unless they are words.
 * That some browsers have individual CSS capabilities. I tried to make it as broadly compatible as possible.
 
-Many effects I desired took patience to figure out, but pretty much every one was possible to achieve. I was really impressed with the capabilities of this markup language combo.
+I was impressed that this markup language combo allowed me to achieve pretty much every effect I imagined.
