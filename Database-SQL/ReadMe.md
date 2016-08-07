@@ -1,4 +1,4 @@
-##Database and SQL Work
+##Database & SQL Work
 ---
 ###Fantasy Library Database
 ___
