@@ -7,6 +7,7 @@ Create a login page using HTML5 and CSS3.
 
 ####Steps Taken
 * Made a login page in basic HTML, loginstyled.html.
+* Included buttons, checkboxes, and links.
 * Made a separate CSS file to provide the styling, loginstyle.css.
 * Included wing images and soft gradients for a heavenly 3-D look.
 
