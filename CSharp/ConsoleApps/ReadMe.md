@@ -25,8 +25,8 @@ Show also the retrieval of the object from that file and conversion back to its 
 ####Steps Taken
 * A program was made for each demonstration requested.
 * Sources of aid are listed at the end of the files. 
-* See my coursework repository for example 10 of [serialization and deserialization] https://github.com/rebeccapizano/Coursework/tree/master/CSharp/SerializationDeserialization, made following a tutorial.
+* See my coursework repository for example 10 of [serialization and deserialization], made following a tutorial.
+[serialization and deserialization]: https://github.com/rebeccapizano/Coursework/tree/master/CSharp/SerializationDeserialization
 
 ####Result
-* Got every example to work.
-* Each program is listed as the name of the example.
+* Each program works and is listed as the name of the example.
