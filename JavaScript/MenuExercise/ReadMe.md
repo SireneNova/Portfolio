@@ -6,16 +6,16 @@ ___
 * Learn Bootstrap and use it to enhance the page.
 
 ####Steps Taken
-* The original static HTML and CSS was made following a tutorial on LittleWebHut.com at this [link]. An image of this page is included as "before.png" in the beforeAfterPics folder.
-* My additions for this project are contained in first.html, style.css, and news.js.
-* "JS Menu" was made using mouseenter and mouseleave functions in news.js.
-* An additonal "CSS Menu" was added for comparison using the CSS hover attribute.
-* Lightbox2 was downloaded from the creator's [website], and the getting started steps were followed to add the images in the pics folder (in AllFiles).
-* Bootstrap was downloaded and studied from getbootstrap.com.
-* "Bootstrap Menu" was added using the Dropdown feature of Bootstrap, which uses CSS and JS.
-* Hover text was added over "Be a News Reporter" using the Tooltip feature of Bootstrap, which uses CSS and JS.
-* Bootstrap CSS automatically restyled the body text, and Bootstrap centering was applied manually.
-* Additional CSS font styling was also applied over Bootstrap.
+* Previously made the original static HTML and CSS following a tutorial on LittleWebHut.com at this [link]. An image of this page is included as "before.png" in the beforeAfterPics folder.
+* My coding additions for this project are contained in first.html, style.css, and news.js.
+* Made "JS Menu" using mouseenter and mouseleave functions in news.js.
+* Added a "CSS Menu" for comparison using the CSS hover attribute.
+* Downloaded Lightbox2 from the creator's [website], and followed the getting started to add images (in AllFiles).
+* Downloaded and studied Bootstrap from getbootstrap.com.
+* Added "Bootstrap Menu" using the Dropdown feature of Bootstrap, which applies CSS and JS.
+* Added hover text over "Be a News Reporter" using the Tooltip feature of Bootstrap, which applies CSS and JS.
+* Manually applied Bootstrap CSS text centering. Bootstrap CSS automatically restyled the body text.
+* Applied additional CSS font styling over Bootstrap.
 
 [link]: http://www.littlewebhut.com/html5/css_layout/
 [website]: http://lokeshdhakar.com/projects/lightbox2/
@@ -28,3 +28,6 @@ All items I added worked. Through this project I learned:
   * In news.js I commented an alternative way to call the dropdown in bootstrap.
 
 AllFiles.zip is a compressed folder containing all files to view the page. In addition to all files listed above, it contains files to view the Lightbox images.
+
+The [beforeAfterPics] folder contains images of the page before and after my changes.
+[beforeAfterPics]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/MenuExercise/beforeAfterPics
