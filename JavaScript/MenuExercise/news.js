@@ -9,10 +9,10 @@ $(document).ready(function() {
     $(this).slideUp();
   });
   
-  // This was stated to be necessary for menu, but is not:
+  // This could be used instead of data attributes to call "bootstrap menu":
   // $(".dropdown-toggle").dropdown("toggle");
   
-  //This is for the mouse over tooltip:
+  //This is necessary for the mouse over tooltip:
   $(function () {
   $('[data-toggle="tooltip"]').tooltip()
   });  
