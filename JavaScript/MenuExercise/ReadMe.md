@@ -26,3 +26,5 @@ All items I added worked. Through this project I learned:
 * How to override styling. The order of referencing external sheets matters.
 * That there are different ways to perform the same function.
   * In news.js I commented an alternative way to call the dropdown in bootstrap.
+
+AllFiles.zip is a compressed folder containing all files to view the page. In addition to all files listed above, it contains files to view the Lightbox images.
