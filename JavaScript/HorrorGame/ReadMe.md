@@ -16,4 +16,4 @@ ___
 	• My team is now aware of the problem in step 4.
 	• My function for calculating time delay worked. I could not, however, get the script to automatically use the value calculated.
 	• Exceeded my project manager's expectations with what I accomplished. 
-* The new problems I identified will give future students joining the project something to work on.
+	• The new problems I identified will give future students joining the project something to work on.
