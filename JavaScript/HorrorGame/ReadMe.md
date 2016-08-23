@@ -1,5 +1,5 @@
 ###Horror Game Project
-The Tech Academy gives students a final team project to work on called a Live Project. In it, students contribute towards a software product for a real client and practice Scrum methodologies. My experience is described below. This project had been going on for several months before I joined. 
+The Tech Academy gives students a final team project to work on called a Live Project. In it, students contribute towards a software product for a real client while practicing Scrum methodologies. My experience joining an ongoing project is described below.
 ___
 ####Objective
 	1. Contribute toward a JavaScript-based story-driven horror game in a 2-week sprint.
@@ -15,4 +15,5 @@ ___
 	• My fixes for the problems in step 3 worked.
 	• My team is now aware of the problem in step 4.
 	• My function for calculating time delay worked. I could not, however, get the script to automatically use the value calculated.
-	• Exceeded my project manager's expectations with what I accomplished. He also says future students joining the project can address the problems and efforts I brought up.
+	• Exceeded my project manager's expectations with what I accomplished. 
+* The new problems I identified will give future students joining the project something to work on.
