@@ -20,7 +20,7 @@ Postings are mostly the result of drills and assignments in The Tech Academy tha
 * Built a [news page] with Lightbox pictures and dynamic JavaScript and CSS menus.
 * Contributed to a text-based [horror story game] project in a Scrum team.
 [news page]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/MenuExercise
-[horrow story game]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/HorrorGame
+[horror story game]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/HorrorGame
 
 ###C Sharp
 * Built a series of [apps] that demonstrated the basic use of different objects and features in C#.
