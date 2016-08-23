@@ -12,8 +12,8 @@ ___
 	5. Made a function that automatically calculated time delay. (The value for time delay had been manually counted for each step of the story before.)
 	6. Completed the teamwork and attendance requirements. Gave consistent updates on my progress via email and the meetings. 
 ####Results
-	• My fixes for the problems in step 3 worked.
-	• My team is now aware of the problem in step 4.
+	• My fixes for the problems in step 4 worked.
+	• My team is now aware of the problem in step 3.
 	• My function for calculating time delay worked. I could not, however, get the script to automatically use the value calculated.
 	• Exceeded my project manager's expectations with what I accomplished. 
 	• The new problems I identified will give future students joining the project something to work on.
