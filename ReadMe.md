@@ -17,7 +17,7 @@ Postings are mostly the result of drills and assignments in The Tech Academy tha
 [login page]: https://github.com/rebeccapizano/Portfolio/tree/master/HTML-CSS/LoginPage
 
 ###JavaScript
-* Built a [news page] with Lightbox pictures and dynamic JavaScript and CSS menus.
+* Built a [news page] with Lightbox pictures, Bootstrap elements, and dynamic JavaScript and CSS menus.
 * Contributed to a text-based [horror story game] project in a Scrum team.
 [news page]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/MenuExercise
 [horror story game]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/HorrorGame
