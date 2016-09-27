@@ -17,6 +17,6 @@ Create a program with options to view sale data graphically as
     * continue or exit the program after each operation
 
 ####Results
-I was able to make the programs. I refreshed my memory on how to import csv files to SQLite, use SQL commands, and organize the code to get it to run as a program. I learned new ways of manipulating and converting strings, lists, and tuples. I also learned how to create bar charts with matplotlib. I spent much time researching how to get the legend to where I wanted it. It cuts off by default if moved outside the plot. I am now more comfortable using Python and the useful modules sqlite3, numpy, matplotlib, and csv. 
+It worked. I refreshed my memory on how to import csv files to SQLite, use SQL commands, and organize the code to get it to run as a program. I learned new ways of manipulating and converting strings, lists, and tuples. I also learned how to create bar charts with matplotlib. I spent much time researching how to get the legend to where I wanted it. It cuts off by default if moved outside the plot. I am now more comfortable using Python and the useful modules sqlite3, numpy, matplotlib, and csv. 
    
      
