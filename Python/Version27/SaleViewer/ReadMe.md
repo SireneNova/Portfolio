@@ -3,8 +3,8 @@ The final practical exercise in a Python course was to create a program of your 
 
 ####Objective
 Create a program with options to view sale data graphically as
-    * a multi-bar chart of sales per month per store
-    * a multi-bar chart of profit per month per store
+* a multi-bar chart of sales per month per store
+* a multi-bar chart of profit per month per store
 
 ####Steps Taken
 1. Created a flowchart and had it approved by an instructor
