@@ -24,7 +24,6 @@
    
 	<h3>{{subtitle1}}</h3>
 	<form action="/expenses" method="POST">
-        <!--v-on:submit="submitWeekNo" -->
 	<p><input type="text" placeholder="Date (mm-dd-yy)" name="date" id="date" required> </p>
 	<p><input type="text" placeholder="Amount" name="amount" id="amount" required></p>
 	<p><input type="text" placeholder="Description" name="description" id="description" ></p>
@@ -58,7 +57,7 @@
 
     
 
-<!--VUE and other JS-->
+<!--CLIENT JS-->
 
 <script>
     new Vue({
@@ -68,26 +67,6 @@
         subtitle1: 'Enter',
         subtitle2:'Search',   
     }
-
-/*//  Inserted calculated parameter straight to database at first, but posted as separate array: 
-,
-    methods: {
-        submitWeekNo:
-            function () {
-                var test = document.forms["entryForm"]["date"].value;
-                var actualDate = new Date(test);
-                var actualYear = actualDate.getFullYear();
-                alert(actualYear);
-                //january 1st of the year:
-                var startDate = new Date("01-01-"+actualYear.toString());
-                //difference in seconds:
-                var diff = (actualDate-startDate)/1000;
-                var secondsPerWeek = (60*60*24*7);
-                var weekNo = Math.ceil(diff/(secondsPerWeek));
-                alert(weekNo);
-                $.post('/expenses', {date: $('#date').val(), amount: $('#amount').val(), description: $('#description').val(), week: weekNo});
-                }
-        }*/
     })
 </script>
 
