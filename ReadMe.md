@@ -17,8 +17,10 @@ Postings are mostly the result of drills and assignments in The Tech Academy tha
 [login page]: https://github.com/rebeccapizano/Portfolio/tree/master/HTML-CSS/LoginPage
 
 ###JavaScript
+* Built an [expense tracker web app] with a report page, Node/Express server, NEDB database, and Vue elements.
 * Built a [news page] with Lightbox pictures, Bootstrap elements, and dynamic JavaScript and CSS menus.
 * Contributed to a text-based [horror story game] project in a Scrum team.
+[expense tracker web app]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/ExpenseWebApp
 [news page]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/MenuExercise
 [horror story game]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/HorrorGame
 
