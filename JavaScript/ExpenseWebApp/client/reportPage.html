@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html>
+<head> 
+	<meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+	<meta charset="utf-8">
+	<title>Report Page</title>
+    
+<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<!--JS lIBRARIES-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+	<script src="/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+    
+</head>
+    
+<body class = "text-center">
+<div id=app>
+    <h1> {{title}} </h1>
+    <h3>{{subtitle}}</h3>
+    
+    <form><select></select></form>
+    <br>
+    
+    <table>
+    <thead>
+        <tr>
+        <th>Week Number</th>
+        <th>Week Total</th> 
+        </tr>
+    </thead>
+    <tbody>
+        
+    </tbody>
+    </table>
+    
+</div>   
+
+<script>
+    new Vue({
+    el: '#app',
+    data: {
+        title: 'Expen$es Per Week',
+        subtitle: 'Year'
+        },
+    })
+</script>  
+<script src = "/js/reportPage.js"></script>
+</body>

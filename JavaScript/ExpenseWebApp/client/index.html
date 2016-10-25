@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+<html>
+<head> 
+	<meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+	<meta charset="utf-8">
+	<title>Client Form</title>
+    
+<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+
+<!--JS LIBRARIES-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+	<script src="/js/jquery.min.js"></script>
+
+</head>
+
+
+<body class="text-center">
+
+<div id="forms">
+	<h1> {{title}} </h1>
+   
+	<h3>{{subtitle1}}</h3>
+	<form action="/expenses" method="POST">
+        <!--v-on:submit="submitWeekNo" -->
+	<p><input type="text" placeholder="Date (mm-dd-yy)" name="date" id="date" required> </p>
+	<p><input type="text" placeholder="Amount" name="amount" id="amount" required></p>
+	<p><input type="text" placeholder="Description" name="description" id="description" ></p>
+	<button>Enter Expense</button>
+	</form>
+    
+    <br>
+    
+    <form action="http://localhost:3000/reportPage.html">
+    <button type="submit">View Report</button>
+    </form>
+    
+	<h3>{{subtitle2}}</h3>
+    <form>
+	<p><input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search Expenses"></p>
+	</form>
+    
+</div>
+
+<table>
+    <thead>
+        <tr>
+        <th>Date</th>
+        <th>Amount</th> 
+        <th>Description</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>    
+
+
+    
+
+<!--VUE and other JS-->
+
+<script>
+    new Vue({
+    el: '#forms',
+    data: {
+        title:'Expen$e Tracker',
+        subtitle1: 'Enter',
+        subtitle2:'Search',   
+    }
+
+/*//  Inserted calculated parameter straight to database at first, but posted as separate array: 
+,
+    methods: {
+        submitWeekNo:
+            function () {
+                var test = document.forms["entryForm"]["date"].value;
+                var actualDate = new Date(test);
+                var actualYear = actualDate.getFullYear();
+                alert(actualYear);
+                //january 1st of the year:
+                var startDate = new Date("01-01-"+actualYear.toString());
+                //difference in seconds:
+                var diff = (actualDate-startDate)/1000;
+                var secondsPerWeek = (60*60*24*7);
+                var weekNo = Math.ceil(diff/(secondsPerWeek));
+                alert(weekNo);
+                $.post('/expenses', {date: $('#date').val(), amount: $('#amount').val(), description: $('#description').val(), week: weekNo});
+                }
+        }*/
+    })
+</script>
+
+<script src="/js/index.js"></script>
+
+</body>
+</html> 
