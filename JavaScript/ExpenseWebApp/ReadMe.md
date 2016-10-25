@@ -27,4 +27,4 @@ ___
 1. The web page works in Chrome, but not Firefox, due to a difference in the way the browsers deal with date formatting. It is designed to work on mobile-sized browsers as well. 
 2. I learned how to use Node, create restful apis, use NEDB, use Vue, and deal with JSON objects, all of which was completely new. 
 3. I also strengthened my skills with JQuery. 
-4.. An instructor I asked at The Tech Academy estimated that the project should take me 5 days to complete based on my experience. It took me about two weeks, which was closer to what I would have estimated.
+4. An instructor I asked at The Tech Academy estimated that the project should take me 5 days to complete based on my experience. It took me about two weeks, which is about what I would have estimated.
