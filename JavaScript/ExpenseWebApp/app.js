@@ -60,9 +60,7 @@ app.post('/expenses', function(req, res) {
     description: req.body.description,
     weekNum: req.body.week
     };
-    
-
-  db.insert(expense, function(err, expense) {
+    db.insert(expense, function(err, expense) {
     if (err) res.send(err);
     res.redirect('/');
   });
