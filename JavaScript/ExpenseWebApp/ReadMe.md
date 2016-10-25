@@ -18,7 +18,7 @@ ___
 
 ####Steps Taken
 1. Skimmed a Lynda tutorial on Node JS. Identified a section on Express and building web servers, and focused on that. 
-2. Reviewed online resources on NEDB and Vue.
+2. Reviewed online resources on NEDB, Vue, and JSON.
 3. Built a web server with Node and Express. Connected routes to an NEDB database.
 4. Created client-side web pages and script with user input and dynamic tables. Used Vue to control some titles.
 5. The main input page contains table filters.
