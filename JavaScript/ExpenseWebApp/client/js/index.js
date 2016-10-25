@@ -5,8 +5,6 @@ $(document).ready(function () {
     });        
 });
 
-//get date from form and post it to db
-
 function printTerms(terms) {
     $.each(terms, function () {
         $('tbody').append('<tr>'+'<td>'+this.date+'</td>'+ '<td>'+this.amount+'</td>'+'<td>'+this.description+'</td>'+'</tr>')
