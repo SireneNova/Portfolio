@@ -1,0 +1,16 @@
+{
+  "name": "spa-expenses",
+  "version": "1.0.0",
+  "description": "single page app tracking expenses",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rebecca Pizano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nedb": "^1.8.0"
+  }
+}
