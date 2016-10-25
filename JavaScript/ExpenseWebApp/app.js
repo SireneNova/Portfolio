@@ -64,10 +64,6 @@ app.post('/expenses', function(req, res) {
 
   db.insert(expense, function(err, expense) {
     if (err) res.send(err);
-   // to use this route directly for the view 
-    // until cleaner solution is implemented 
-    // redirect instead of res.json 
-    // res.json(expense);
     res.redirect('/');
   });
 });
