@@ -2,7 +2,8 @@
 
 I undertook this project during my job search to test and expand on my JavaScript and web design skills. 
 I learned and applied at least 4 new technologies in completing it. 
-It works in a Chrome browser.
+It works in Chrome.
+The projectFiles compressed folder contains the entire applicaton. They are also laid out above. 
 ___
 
 ####Objective
