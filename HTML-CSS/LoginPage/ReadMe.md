@@ -1,6 +1,6 @@
 ###Heaven Login Page
 
-All files are also contained in the zipped folder.
+All files are also contained in the compressed folder, loginPage.zip.
 ___
 ####Objective
 Create a login page using HTML5 and CSS3.
