@@ -5,6 +5,7 @@ $(document).ready(function () {
     });        
 });
 
+//
 function printTerms(terms) {
     $.each(terms, function () {
         $('tbody').append('<tr>'+'<td>'+this.date+'</td>'+ '<td>'+this.amount+'</td>'+'<td>'+this.description+'</td>'+'</tr>')
