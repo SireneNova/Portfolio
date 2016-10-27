@@ -8,14 +8,6 @@ Postings are the result of projects or homework assignments that required indepe
 [graphical sale viewer]: https://github.com/rebeccapizano/Portfolio/tree/master/Python/Version27/SaleViewer
 [gui that moves files]: https://github.com/rebeccapizano/Portfolio/blob/master/Python/Version27/drillP69-dbftGuiDate.py
 
-###SQL
-* Built a [library database] with queries that organize the information for different purposes.
-[library database]:https://github.com/rebeccapizano/Portfolio/tree/master/Database-SQL
-
-###HTML & CSS
-* Built a [login page] to heaven.
-[login page]: https://github.com/rebeccapizano/Portfolio/tree/master/HTML-CSS/LoginPage
-
 ###JavaScript
 * Built an [expense tracker web app] with a report page, Node/Express server, NEDB database, and Vue elements.
 * Built a [news page] with Lightbox pictures, Bootstrap elements, and dynamic JavaScript and CSS menus.
@@ -23,6 +15,14 @@ Postings are the result of projects or homework assignments that required indepe
 [expense tracker web app]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/ExpenseWebApp
 [news page]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/MenuExercise
 [horror story game]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/HorrorGame
+
+###SQL
+* Built a [library database] with queries that organize the information for different purposes.
+[library database]:https://github.com/rebeccapizano/Portfolio/tree/master/Database-SQL
+
+###HTML & CSS
+* Built a [login page] to heaven.
+[login page]: https://github.com/rebeccapizano/Portfolio/tree/master/HTML-CSS/LoginPage
 
 ###C Sharp
 * Built a series of [apps] that demonstrated the basic use of different objects and features in C#.
