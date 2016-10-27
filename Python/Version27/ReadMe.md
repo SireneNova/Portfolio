@@ -8,4 +8,4 @@ drill40 is a sqlite assignment where I created and queried a database of alien a
 </br></br>
 drillp65datetime is an exercise in using the time and datetime functions. The program displays when a fictional store chain is open in different cities throughout the world based on the real times there.
 </br></br>
-The Database (DB) File Transfer GUI folder contains a series of programs that build on each other in complexity to create a program that 1) transfers files if they have been altered in 24 hours, 2) stores the times a check has been made in a database 3) contains a graphical user interface. It contains a separate ReadMe file.
+The Database (DB) File Transfer GUI folder contains a series of programs that build on each other in complexity to create a program that 1) transfers files if they have been altered in 24 hours, 2) stores the times checked in a database, and 3) contains a graphical user interface to operate it. It contains a separate ReadMe file.
