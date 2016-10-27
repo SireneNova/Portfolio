@@ -3,7 +3,7 @@
 I undertook this project during my job search to test and expand on my JavaScript and web design skills. 
 I learned and applied at least 4 new technologies in completing it. 
 It works in Chrome.
-The projectFiles compressed folder contains the entire applicaton. The files are also laid out above. 
+The projectFiles compressed folder contains the entire applicaton. The file structure is also laid out above. 
 ___
 
 ####Objective
