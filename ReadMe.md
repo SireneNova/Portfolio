@@ -6,7 +6,7 @@ Postings are the result of projects or homework assignments that required indepe
 * Built a dynamic [graphical sale viewer] that imports data from a csv.
 * Built a [gui that moves files] between select folders if they have been changed within 24 hours.
 [graphical sale viewer]: https://github.com/rebeccapizano/Portfolio/tree/master/Python/Version27/SaleViewer
-[gui that moves files]: https://github.com/rebeccapizano/Portfolio/blob/master/Python/Version27/drillP69-dbftGuiDate.py
+[gui that moves files]: https://github.com/rebeccapizano/Portfolio/tree/master/Python/Version27/DbFileTransferGuiDate
 
 ###JavaScript
 * Built an [expense tracker web app] with a report page, Node/Express server, NEDB database, and Vue elements.
