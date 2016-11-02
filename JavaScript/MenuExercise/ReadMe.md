@@ -42,9 +42,12 @@ Below are images before and after my changes:
 ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after1.png)
 
 ---
-* Menus:
+* CSS and Bootstrap Menus:
 
 ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after2.png)
+
+---
+* JS Menu
 
 ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after3.png)
 
@@ -54,8 +57,6 @@ Below are images before and after my changes:
 ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after4.png)
 
 ---
-* Lightbox Link + Image:
-
-![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after5.png)
+* Lightbox Image:
 
 ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after6.png)
