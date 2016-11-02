@@ -1,5 +1,5 @@
-### Portfolio of original work
----
+## Portfolio
+___
 Postings are the result of projects or homework assignments that required independent creation of code, however simple. This differs from my Coursework repository, which contains work created by following steps. Some highlights are listed below.
 
 ###Python
