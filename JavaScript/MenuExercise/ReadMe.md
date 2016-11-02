@@ -29,5 +29,33 @@ All items I added worked. Through this project I learned:
 
 AllFiles.zip is a compressed folder containing all files to view the page. In addition to all files listed above, it contains files to view the Lightbox images.
 
-The [beforeAfterPics] folder contains images of the page before and after my changes.
-[beforeAfterPics]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/MenuExercise/beforeAfterPics
+Below are images before and after my changes: 
+
+####Before:</br>
+
+![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/before.PNG)
+
+####After: </br>
+
+* Whole Page:
+
+![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after1.png)
+
+---
+* Menus:
+
+![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after2.png)
+
+![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after3.png)
+
+---
+* Bootstrap Tooltip:
+
+![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after4.png)
+
+---
+* Lightbox Link + Image:
+
+![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after5.png)
+
+![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/after6.png)
