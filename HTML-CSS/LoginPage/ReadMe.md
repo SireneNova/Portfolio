@@ -21,3 +21,7 @@ Through the design process, I learned:
 * That some browsers have individual CSS capabilities. I tried to make it as broadly compatible as possible.
 
 I was impressed that this markup language combo allowed me to achieve pretty much every effect I imagined.
+
+Here is a screenshot of the page in a desktop browser:
+
+![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/LoginPage/loginPage.PNG)
