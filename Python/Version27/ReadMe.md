@@ -5,7 +5,7 @@ The work here was made for assignments from The Tech Academy. Each project is de
 
 ###Sale Viewer
 ---
-The Sale Viewer is a final Python project of my design and choosing. It contains a separate ReadMe file.
+The Sale Viewer is a final Python project of my design and choosing. The folder contains a separate ReadMe file.
 </br>
 
 ###DB File Transfer Gui
@@ -15,7 +15,8 @@ The Database (DB) File Transfer GUI folder contains a series of programs that bu
 
 ###WX Gui Drill
 ---
-The wxGUIDrill is a drill using wx, and the program file is wxGui.py. The image files are attachments that are used by it.
+The wxGUIDrill is a drill using wx, and the program file is wxGui.py. The image files are attachments that are used by it. The folder contains a separate ReadMe file.
+
 </br>
 
 ###Alien Drill
