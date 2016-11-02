@@ -24,6 +24,7 @@ P71Drill-webPageGUI  builds off the last drill. It creates a web page based on t
 P73Drill-webPageGUIdb builds off the last drill. It has options to either create a new page with entered text or to to select from previous text entered to create the page. The data is stored using sqlite, and selections are displayed as checkboxes. Also, the entry box has been replaced with a text box so that the height could be adjusted to create more room to view input text. With a textbox, the "get" function now requires arguments to determine how much text to retrieve. It doesn't automatically retrieve all text, like with the entry box. 
 
 ### GUI Drill
+---
 P71Drill-dbftGuiDate is functionally the same as drillP69dbftGuiDate in the [Version 2.7 folder]. </br>
 The only difference is that all print functions have parentheses around them because it is formatted for Version 3.4.
 [Version 2.7 folder]: https://github.com/rebeccapizano/Portfolio/tree/master/Python/Version27/DbFileTransferGuiDate
