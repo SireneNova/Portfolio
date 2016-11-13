@@ -1,0 +1,136 @@
+body {
+	background-image: radial-gradient(white 45%,pink);
+	font: 30px/10px "Great Vibes", "Cookie";
+	margin-top: 100px;
+}
+
+img {
+    display: inline-block;
+	margin-top: 70px
+}
+
+.leftw {
+	float:left;
+	margin-left: -132px;
+}
+
+.rightw {
+	float:right;
+	margin-right: -122px;
+}
+
+form {
+    text-align:center;
+	background-image: radial-gradient(circle, #006666, teal 70%);
+	margin: auto; /*50px 140px;*/
+	width: 50%;
+	border-color: purple;
+	border-style: inset;
+	border-width: 8px;
+	border-radius: 20px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: inset -2px -2px 20px 5px white
+}
+	
+header {
+	text-align:center;
+	color: #4d0000;
+	/*background-color: grey;*/
+	padding:1px;
+	margin:10px 0px 0px 0px;
+	text-shadow: 0 2px violet;
+	background-image: linear-gradient(to bottom, white , #d9d9d9);
+	box-shadow: inset -5px -5px 13px 7px white /*, 0 1px 2px rgba(0, 0, 0, 0.15)*/;
+}
+
+
+input[type=text], input[type=password] {
+    margin: 0px;
+    padding: 0 10px;
+    width: 60%;
+    height: 34px;
+    color: #404040;
+    background: white;
+    border: 1px solid;
+    border-color:#eff4f7;
+    border-radius: 10px;
+    border-width: 5px  ;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.4);
+    outline: none;
+    font-family: "Cookie";
+    font-size: 17px
+}
+ 
+input[type=text]:focus, input[type=password]:focus {
+    box-shadow: inset 2px 1px 3px orchid;
+    /*border-color: #7dc9e2;*/
+}
+  
+p.remember_me {
+    float: left;
+    line-height: .5px;
+}
+ 
+p.remember_me label {
+    position:relative;
+    bottom: 45px;
+    left:20px;
+    /*font-family: "Cookie";*/
+    font-size: 19px;
+    color: turquoise;
+    cursor: pointer;
+}
+
+p.remember_me label:hover {
+    color: #20c5b5;
+}
+
+p.remember_me input {
+    position: relative;
+    bottom: 3px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+p.submit {
+    text-align: right;
+    line-height: 40px;
+    margin-right: 13px;
+    margin-bottom: 17px;
+}
+
+button{
+    padding: 0 10px;
+    height: 29px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Great Vibes';
+    color: #3c575d;
+    text-shadow: 0 1px #e3f1f1;
+    background: #cde5ef;
+    border: 1px solid;
+    border-color: #b4ccce #b3c0c8 #9eb9c2;
+    border-radius: 16px;
+    outline: 0;
+    box-sizing: content-box;
+    background-image: linear-gradient(to bottom, white, #b3e6cc);
+    box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+body.jQuery button:hover {
+    background-image: linear-gradient(to bottom, white, #53c68a);
+}
+  
+body.jQuery button:active {
+    background-image: linear-gradient(to bottom, white, #339964);
+}
+
+  
+.login-help {
+	text-align: center;
+	margin: auto;
+	font-size: 18px;
+	font-family: "Cookie";
+	color: purple;
+	clear: both;
+}

@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="loginStyle.css">
+		<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+        <script src="jquery.min.js"></script>
+		<title>Login</title>
+	</head>
+
+	<body class="jQuery">
+		<form id = "frm">
+		
+		<img class=leftw src="leftclear.png">
+		<img class=rightw src="rightclear.png">	
+		
+		<header>
+		<h1>Welcome</h1>
+		</header>
+			
+			<p><!--Username--> <input type="text" placeholder="Username" id="username" onchange="validate()" required/> </p><!--<br/>-->
+			<p><!--Password--> <input type="password" placeholder="Password" id="password" required></p>
+			
+			<!--Remember me-->
+			<p class="remember_me"> 
+				<label>
+					<input type="checkbox" name="remember_me" id="remember_me">
+					Remember me on this computer
+				</label>
+			</p>
+			
+			<!--Button-->
+            <button id="btn">Login</button>
+		
+		</form>
+				
+		<!--Forgot Password-->
+		<div class="login-help">
+			<p>Forgot your password? <a href="#">Click here to reset it</a>.</p>
+		</div>
+		 
+        <script type="text/javascript">
+            
+        
+            function validateEmail(email) {
+              var re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+              return re.test(email);
+            }
+
+            function validate() {
+              var email = $("#username").val();
+              if (validateEmail(email)) {
+                  document.getElementById("btn").disabled = false;
+                  document.getElementById("btn").style.color = "#3c575d";
+                  $('body').addClass('jQuery');
+              } else {
+                  document.getElementById("btn").disabled = true;
+                  document.getElementById("btn").style.color = "#92b2b9"; 
+                  $('body').removeClass('jQuery');
+              }
+            }
+
+            $("form").submit(function() {
+                if ($('#username').val() == 'hr@auphansoftware.com' && $('#password').val() == 'hello'){
+                    alert('Login Succesful');  
+                } else {
+                    alert('Incorrect Username/Password');
+                };
+            });
+     
+        </script>
+	</body>
+</html>
