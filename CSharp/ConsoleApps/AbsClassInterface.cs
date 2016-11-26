@@ -5,26 +5,28 @@ namespace AbstractClassVsInterface
     //Abstract class can have access modifiers. Private by default.
     public abstract class absParent
     {
-        //Abstract class can have methods w implementation
+        //Abstract class can have methods w implementation (static or instance)
         public static void Print()
         {
             Console.WriteLine("Implementation");
         }
-
+        
+        //Any class with an abstract method is an abstract class:
         public abstract int Add(int num1, int num2);
     }
 
 
     // Interface is public by default. No access modifiers.
+    // Only contain abstract methods
     interface IParent
     {
-        /*Can't implement in interface. This doesn't work:
+        /*Can't have methods with implementation. (No instance or static methods.) This doesn't work:
         public void Print()
         {
             Console.WriteLine("implementation");
         }*/
 
-        //All you can do is introduce method:
+        //All you can do is introduce abstract method :
         int IAdd(int num1, int num2);
     }
 
@@ -46,13 +48,13 @@ namespace AbstractClassVsInterface
         {
             Print(); //from abs class
 
-            //Can instantiate interface:
+            //Can't instantiate abs class or interface. This doesn't work: 
+            //absParent a = new absParent;
+            
+            //indirectly:
             IParent p = new Child();
             Console.WriteLine(p.IAdd(2,5));
-
-            //Can't instantiate abs class, eg:
-            //absParent a = new absParent;
-
+           
             Child c = new Child();
             Console.WriteLine(c.Add(6,3));
 
