@@ -32,7 +32,7 @@ namespace AbstractClassVsInterface
 
     public class Child : absParent, IParent
     {
-        // Need override mod for class override.
+        // Need override mod for class override in c#.
         override public int Add(int num1, int num2)
         {
             return num1 + num2;
@@ -43,12 +43,12 @@ namespace AbstractClassVsInterface
         {
             return num1 + num2;
         }
-
+//Not shown - classes can inherit from a single abstract base class (single inheritance) but multiple interfaces.
         public static void Main()
         {
             Print(); //from abs class
 
-            //Can't instantiate abs class or interface. This doesn't work: 
+            //Can't instantiate abs class or interface directly. This doesn't work: 
             //absParent a = new absParent;
             
             //indirectly:
