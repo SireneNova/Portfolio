@@ -44,20 +44,36 @@ namespace AbstractClassVsInterface
             return num1 + num2;
         }
 //Not shown - classes can inherit from a single abstract base class (single inheritance) but multiple interfaces.
+
         public static void Main()
         {
             Print(); //from abs class
 
-            //Can't instantiate abs class or interface directly. This doesn't work: 
+            //Can't instantiate abs class or interface directly. They are only meant to be extended. This doesn't work: 
             //absParent a = new absParent;
             
             //indirectly:
             IParent p = new Child();
             Console.WriteLine(p.IAdd(2,5));
            
+            // 
             Child c = new Child();
             Console.WriteLine(c.Add(6,3));
 
         }
     }
 }
+
+/*
+Uses:
+* Both support polymorphism in inheriting objects. Structs can only inherit from interfaces.
+* Abstract classes can share states and functionalities with inheriting objects, while interfaces cannot. A good use for an abstract class is to create objects that are subcategories of itself, giving them default/base properties. This helps avoid repeating the shared code.
+* Both abstract classes and interfaces can declare that a state or functionality should exist in inheriting objects. This is all interfaces do.
+* Interfaces are best used when inheritance of multiple interfaces with no base implementation is desired and to give struct polymorphism.
+
+Sources:
+C# Succinctly by Joe Mayo (book)
+https://www.youtube.com/watch?v=AU07jJc_qMQ&index=2&list=LLgg5TrwB0taT5IXe67j0H1Q
+https://www.youtube.com/watch?v=hlLqvwocSr4
+http://stackoverflow.com/questions/479142/when-to-use-an-interface-instead-of-an-abstract-class-and-vice-versa
+*/
