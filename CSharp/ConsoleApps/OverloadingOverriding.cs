@@ -3,7 +3,7 @@
 namespace OverloadingOverriding
 {
     // Overload
-    // Gives added function to a method
+    // Gives added function to a method (getSum here)
     public class Overload
     {
         public static int getSum(int num1 = 1, int num2 = 1)
@@ -40,11 +40,11 @@ namespace OverloadingOverriding
     {
         public static void Main(string[] args)
         { 
-            // Overloading
+            // Overloading result
             Console.WriteLine(Overload.getSum(3, 4));
             Console.WriteLine(Overload.getSum(num2: 3.4, num1: 4.5));
 
-            // Overriding
+            // Overriding result
             // First need new instance of Child class since not static
             Child c = new Child();
             Console.WriteLine(c.getProduct(3, 4));
