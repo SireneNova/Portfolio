@@ -1,4 +1,7 @@
-﻿using System;
+using System;
+
+//Derived class - a class that derives from an existing class. Aka a child class or subclass
+//The parent class is also know as a base class.
 
 namespace DerivedClass
 {
