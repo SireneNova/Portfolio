@@ -2,6 +2,7 @@
 
 namespace WindowsSeriesDrill
 {
+    //public- any other code can access
     public class Parent
     {
         //can be accessed by same class or derived class inside or outside assembly
