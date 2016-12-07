@@ -66,9 +66,11 @@ namespace AbstractClassVsInterface
 
 /*
 Uses:
-* Both support polymorphism in inheriting data structures. Structs can only inherit from interfaces.
-* Abstract classes can share states and functionalities with derived structures, while interfaces cannot. An abstract class can be used as a superclass that gives default/base properties to its subclasses. This helps avoid repeating the shared code.
-* Both abstract classes and interfaces can declare that a state or functionality should exist in derived objects. This is all interfaces do, while abstract classes can have implementation.
+* Both support polymorphism in derived structures. Structs can only inherit from interfaces.
+* Abstract classes can share states and functionalities with derived template structures (classes), while interfaces cannot. 
+* An abstract class can be used as a superclass that gives default/base properties to its subclasses. This helps avoid repeating the shared code.
+* Both abstract classes and interfaces can declare that a state or functionality should exist in derived structures. This is all interfaces do.
+* Abstract classes can additionally have implementation, while interfaces cannot.
 * Classes and structs can inherit from multiple interfaces. Abstract classes (and classes in general) can only have one derived class.
 * Interfaces are best used when inheritance of multiple interfaces with no base implementation is desired and to give struct polymorphism.
 
