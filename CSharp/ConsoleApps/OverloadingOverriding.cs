@@ -40,11 +40,11 @@ namespace OverloadingOverriding
     {
         public static void Main(string[] args)
         { 
-            // Overloading result
+            // Results of overloaded method
             Console.WriteLine(Overload.getSum(3, 4));
             Console.WriteLine(Overload.getSum(num2: 3.4, num1: 4.5));
 
-            // Overriding result
+            // Result of overriden method
             // First need new instance of Child class since not static
             Child c = new Child();
             Console.WriteLine(c.getProduct(3, 4));
