@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PaymentCoTest
+namespace Test
 {
     class SimpleLoop
     {
-       static void StairCase(int n)
+       static void Count(int n)
         {
             for (int i=0; i<n; i++)
             {
@@ -18,7 +18,7 @@ namespace PaymentCoTest
         }
         static void Main(string[] args)
         {
-            StairCase(6);
+            Count(6);
         }
     }
 }
