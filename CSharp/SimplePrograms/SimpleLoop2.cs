@@ -10,7 +10,6 @@ namespace Test
             {
                 Console.WriteLine(i);
             }
-            Console.ReadLine();
         }
         static void Main(string[] args)
         {
