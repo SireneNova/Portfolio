@@ -2,7 +2,7 @@ using System;
 
 namespace Test
 {
-    class SimpleLoop
+    class Stairs
     {
         static void Staircase(int n)
         {
