@@ -13,8 +13,7 @@ namespace Test
             for (int i=0; i<n; i++)
             {
                 Console.WriteLine(i);
-            }
-            Console.ReadLine();
+            }            
         }
         static void Main(string[] args)
         {
