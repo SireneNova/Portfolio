@@ -1,3 +1,3 @@
 ##C# Work
 ___
-The ConsoleApps folder contains a series of demo apps with further description.
+Each folder contains separate projects with further description.
