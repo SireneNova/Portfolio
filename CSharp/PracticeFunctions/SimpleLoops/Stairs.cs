@@ -2,7 +2,7 @@ using System;
 
 namespace Test
 {
-    class Stairs
+    public class Stairs
     {
         internal static void Staircase(int n)
         {
