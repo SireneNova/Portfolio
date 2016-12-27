@@ -13,8 +13,8 @@ namespace ConsoleDrillFileMove
         static void Main()
         {
             // my directories
-            string source = @"C:\Users\Rebecca\OneDrive\Documents\TechAcademy\10C#\Drills\CSharpConsoleDrill46\Source";
-            string destination = @"C:\Users\Rebecca\OneDrive\Documents\TechAcademy\10C#\Drills\CSharpConsoleDrill46\Destination";             
+            string source = @"C:\path to source directory";
+            string destination = @"C:\path to destination directory";             
                         
             string[] fileArray = Directory.GetFiles(source, "*.txt"); //my criteria: get files if ends in .txt
             // Output of fileArray is in file paths rather than names.
