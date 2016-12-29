@@ -1,18 +1,13 @@
 using System;
 using System.IO;
 
-
 namespace ConsoleDrillFileMove
 {
     class FileMove
     {
-        static void move(string s, string d)
+        static void move(string source, string destination)
         {
-            // my directories
-            string source = s;
-            string destination = d;
-
-            string[] fileArray = Directory.GetFiles(source, "*.txt"); //my criteria: get files if ends in .txt
+             string[] fileArray = Directory.GetFiles(source, "*.txt"); //my criteria: get files if ends in .txt
             // Output of fileArray is in file paths rather than names.
 
             int count = 0;
@@ -61,6 +56,7 @@ namespace ConsoleDrillFileMove
 
         static void Main()
         {
+            // my directories, enter yours
             string folderToCheck = @"C:\Users\Student\OneDrive\Documents\TechAcademy\10C#\Drills\CSharpConsoleDrill46\Source";
             string foldertoSend = @"C:\Users\Student\OneDrive\Documents\TechAcademy\10C#\Drills\CSharpConsoleDrill46\Destination";
             move(folderToCheck, foldertoSend);            
