@@ -57,7 +57,7 @@ namespace ConsoleDrillFileMove
         static string getFolderToCheck()
         {
             //my directory, enter yours
-            string s = @"path to source directory";
+            string s = @"path to default source directory";
             Console.Write("Would you like to change source directory (y/n)? ");
             if (Console.ReadLine().ToLower() == "y")
             {
@@ -74,7 +74,7 @@ namespace ConsoleDrillFileMove
         static string getFolderToSend()
         {
             //my directory, enter yours
-            string d = @"path to destination directory";
+            string d = @"path to default destination directory";
             Console.Write("Would you like to change destination directory (y/n)? ");
             if (Console.ReadLine().ToLower() == "y")
             {
