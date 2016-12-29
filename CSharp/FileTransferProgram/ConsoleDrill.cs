@@ -6,8 +6,8 @@ namespace ConsoleDrillFileMove
     class FileMove
     {
         static void move(string source, string destination)
-        {
-             string[] fileArray = Directory.GetFiles(source, "*.txt"); //my criteria: get files if ends in .txt
+        {   
+            string[] fileArray = Directory.GetFiles(source, "*.txt"); //my criteria: get files if ends in .txt
             // Output of fileArray is in file paths rather than names.
 
             int count = 0;
@@ -53,13 +53,44 @@ namespace ConsoleDrillFileMove
                 Console.WriteLine(b);
             }
         }
+       
+        static string getFolderToCheck()
+        {
+            //my directory, enter yours
+            string s = @"path to source directory";
+            Console.Write("Would you like to change source directory (y/n)? ");
+            if (Console.ReadLine().ToLower() == "y")
+            {
+                Console.Write("Enter source directory file path: ");
+                s = @Console.ReadLine();
+                return s;
+            }
+            else
+            {
+                return s;
+            }
+        }
 
+        static string getFolderToSend()
+        {
+            //my directory, enter yours
+            string d = @"path to destination directory";
+            Console.Write("Would you like to change destination directory (y/n)? ");
+            if (Console.ReadLine().ToLower() == "y")
+            {
+                Console.Write("Enter destination directory file path: ");
+                d = @Console.ReadLine();
+                return d;
+            }
+            else
+            {
+                return d;
+            }
+        }
+             
         static void Main()
         {
-            // my directories, enter yours
-            string folderToCheck = @"C:\path to source directory";
-            string foldertoSend = @"C:\path to destination directory";
-            move(folderToCheck, foldertoSend);            
+            move(getFolderToCheck(), getFolderToSend());            
         }
     }
 }
