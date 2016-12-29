@@ -57,8 +57,8 @@ namespace ConsoleDrillFileMove
         static void Main()
         {
             // my directories, enter yours
-            string folderToCheck = @"C:\Users\Student\OneDrive\Documents\TechAcademy\10C#\Drills\CSharpConsoleDrill46\Source";
-            string foldertoSend = @"C:\Users\Student\OneDrive\Documents\TechAcademy\10C#\Drills\CSharpConsoleDrill46\Destination";
+            string folderToCheck = @"C:\path to source directory";
+            string foldertoSend = @"C:\path to destination directory";
             move(folderToCheck, foldertoSend);            
         }
     }
