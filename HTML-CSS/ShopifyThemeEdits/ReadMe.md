@@ -93,7 +93,7 @@ The main way I did so was by right-clicking and inspecting elements of the page,
 2. Moving down collection links / removing overlap:
    * Before: <br> ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/overlap1ED.jpg)
    * After: <br> ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/overlap2ED.jpg)
-3. Adding a contact image:
+3. Adding an image to Contact page:
    * Before: <br> ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/contactBefore.png)
    * After: <br> ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/contactED.jpg)
 4. Removing the padding:
