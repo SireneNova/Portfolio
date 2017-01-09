@@ -29,3 +29,5 @@ Postings are the result of projects or homework assignments that required indepe
 ###C Sharp
 * Built a series of [apps] that demonstrated the basic use of different objects and features in C#.
 [apps]: https://github.com/rebeccapizano/Portfolio/tree/master/CSharp/ConsoleApps
+* Built [practice functions] in response to common challenges.
+[practice functions]: https://github.com/rebeccapizano/Portfolio/tree/master/CSharp/PracticeFunctions
