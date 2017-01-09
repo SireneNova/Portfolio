@@ -88,9 +88,9 @@ The main way I did so was by right-clicking and inspecting elements of the page,
    ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/largeCompED.jpg)
    * Comparison for small screens: <br>
    ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/smallCompED.jpg)
-   * Looks cleaner for intermediate screen sizes:<br>
+   * Looks cleaner for intermediate screen size:<br>
    ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/cleanerEdit.jpg)
-2. Moving down collection images / removing overlap:
+2. Moving down collection links / removing overlap:
    * Before: <br> ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/overlap1ED.jpg)
    * After: <br> ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/overlap2ED.jpg)
 3. Adding a contact image:
