@@ -1,18 +1,5 @@
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
 ###Shopify Theme Edits
-I wanted to make some changes to a Shopify store that I couldn't do through the built-in user interface, so I learned how to access theme code, 
-learned how the liquid templating engine worked, and made some manual edits. 
+My Shopify store uses the [Venture](https://themes.shopify.com/themes/venture/styles/outdoors) theme. I wanted to make some changes to the store that I couldn't do through the built-in user interface, so I learned how to access the theme code, learned how the liquid templating engine worked, and made some manual edits. 
 ___
 ####Objective
 Make the following edits to my Shopify store by editing the code directly:
@@ -21,6 +8,9 @@ Make the following edits to my Shopify store by editing the code directly:
 2. Move down the collection images on the front page so that they don't overlap with the front image ("hero image").
 3. Add an image to the contact page. 
 4. Shrink the empty space around the top and bottom of the title/logo.
+
+The following image, showing the [Venture](https://themes.shopify.com/themes/venture/styles/outdoors) theme preview, illustrates 2 of the main changes I wanted to make:
+![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/plan.png)
 
 ####Steps Taken
 * Tried to make the changes through the built-in interface, but it didn't appear there was a way to do so.
@@ -93,5 +83,12 @@ The main way I did so was by right-clicking and inspecting elements of the page,
     ```
   
 ####Results
-* Looks cleaner for more screen sizes
+1. Centering and adjusting header elements:
+   * Comparison for large screens:
+   ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/largeCompED.jpg)
+   * Comparison for small screens:
+   ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/smallCompED.jpg)
+   * Looks cleaner for intermediate screen sizes:
+   ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/cleanerEdit.jpg)
+    
 
