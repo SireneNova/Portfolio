@@ -18,7 +18,6 @@ The following image, showing the [Venture](https://themes.shopify.com/themes/ven
 * Liquid was unfamiliar to me. There are also many theme code files that are many pages long. 
 It was not straightforward to find where the code was that I needed to change. 
 The main way I did so was by right-clicking and inspecting elements of the page, to get an idea of what the code looked like and then searcing files with relevant-looking titles. 
-
 * Centering the logo and altering other elements of the header:
     1. Tried changing the css in theme.scss.liquid file in the assets folder in a section under .site-header__logo. 
         * Horizontal aligning attempts: Added ```margin: auto;```, ```textalign: center;```, and changed float to center. 
@@ -35,8 +34,7 @@ The main way I did so was by right-clicking and inspecting elements of the page,
         ```<div class="grid__item small--one-half medium-up--one medium-up--text-center small--text-center">```
         * To make the header look more centered overall, I shrank the size of the right grid by changing:
         ```<div class="grid__item small--one-quarter medium-up--one-third text-right">```
-        to ```<div class="grid__item small--one-quarter medium-up--one-eighth text-left">```
-        
+        to ```<div class="grid__item small--one-quarter medium-up--one-eighth text-left">```        
 * Moved down the collection links on the front page so that they don't overlap with the front image ("hero image"). In theme.scss.liquid, changed the margin of the hero image from negative to 0:
     ```
     .hero {
