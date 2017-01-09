@@ -18,7 +18,7 @@ ___
 Make the following edits to my Shopify store by editing the code directly:
 
 1. Center the website title/logo in the header.
-2. Move down the gutter images on the front page so that it doesn't overlap with the front image ("hero image").
+2. Move down the collection images on the front page so that they don't overlap with the front image ("hero image").
 3. Add an image to the contact page. 
 4. Shrink the empty space around the top and bottom of the title/logo.
 
@@ -45,7 +45,7 @@ The main way I did so was by right-clicking and inspecting elements of the page,
         * To make the header look more centered overall, I shrank the size of the right grid by changing:
         ```<div class="grid__item small--one-quarter medium-up--one-third text-right">```
         to ```<div class="grid__item small--one-quarter medium-up--one-eighth text-left">```
-* Moved down the gutter images on the front page so that it doesn't overlap with the front image ("hero image"). In theme.scss.liquid, changed the margin of the hero image from negative to 0:
+* Moved down the collection images on the front page so that they don't overlap with the front image ("hero image"). In theme.scss.liquid, changed the margin of the hero image from negative to 0:
     ```
     .hero {
       background-color: adaptive-color($color-header, 10%); // default background color
@@ -71,21 +71,26 @@ The main way I did so was by right-clicking and inspecting elements of the page,
   ```
 * Added an image to the contact page. 
     1. In page.contact.liquid, changed grid to grid--table.
-    2. Changed ```<div class="grid__item"``` to ``<div class="grid__item small--one medium-up--one-half">```
-    3. Added ```<div class="grid__item small--one medium-up--one-half">
-    <img src="//cdn.shopify.com/s/files/1/1329/9237/files/writing_large.jpg?v=1474502104" alt=""></img>
-  </div>```.
-    4. In theme.scss.liquid, changed image alignment from middle to top:
+    2. Added image (hidden for small window size) by adding:
+    ```<div class="grid__item small--hide medium-up--one-half medium-up--text-right" id=contactImage>
+    <img src="[path to image file]" alt=""></img>
+    </div>```
+    3. In theme.scss.liquid, changed image alignment from middle to top:
     ```
-    .grid--table > .grid__item {
-        float: none;
-        display: table-cell;
+    #contactImage {
         vertical-align: top;
-        padding-left: 0;
-    }
+        }   
+    ```
+* Shrank the padding around the top and bottom of the title/logo. Changed from / 2 to / 4:
+    ```
+    .site-header__upper {
+      padding-top: $gutter-site / 4;
+      padding-bottom: $gutter-site / 4;
 
-
-* Shrank the empty space around the top and bottom of the title/logo.
+      @include media-query($medium-up) {
+        padding-top: $gutter-site / 4;
+        padding-bottom: $gutter-site / 4;
+    ```
   
 ####Results
 * Looks cleaner for more screen sizes
