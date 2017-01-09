@@ -18,14 +18,14 @@ ___
 
 ####Steps Taken
 1. Skimmed a Lynda tutorial on Node JS. Identified a section on Express and building web servers, and focused on that. 
-2. Reviewed online resources on NEDB, Vue, and JSON.
-3. Built a web server with Node and Express. Connected routes to an NEDB database.
+2. Reviewed online resources on NeDB, Vue, and JSON.
+3. Built a web server with Node and Express. Connected routes to an NeDB database.
 4. Created client-side web pages and script with user input and dynamic tables. Used Vue to control some titles.
 5. The main input page contains table filters.
 6. The report page contains object filters and calculations dealing with JSON.
 
 ####Results
 1. The web page works in Chrome, but not Firefox, due to a difference in the way the browsers deal with date formatting. It is designed to work on mobile-sized browsers as well. 
-2. I learned how to use Node, create restful apis, use NEDB, use Vue, and deal with JSON objects, all of which was completely new. 
+2. I learned how to use Node, create restful apis, use NeDB, use Vue, and deal with JSON objects, all of which was completely new. 
 3. I also strengthened my skills with JQuery. 
 4. The project took me about two weeks to complete.
