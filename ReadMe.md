@@ -9,7 +9,7 @@ Postings are the result of projects or homework assignments that required indepe
 [gui that moves files]: https://github.com/rebeccapizano/Portfolio/tree/master/Python/Version27/DbFileTransferGuiDate
 
 ###JavaScript
-* Built an [expense tracker web app] with a report page, Node/Express server, NEDB database, and Vue elements.
+* Built an [expense tracker web app] with a report page, Node/Express server, NeDB database, and Vue elements.
 * Built a [news page] with Lightbox pictures, Bootstrap elements, and dynamic JavaScript and CSS menus.
 * Contributed to a text-based [horror story game] project in a Scrum team.
 [expense tracker web app]: https://github.com/rebeccapizano/Portfolio/tree/master/JavaScript/ExpenseWebApp
