@@ -22,7 +22,9 @@ Postings are the result of projects or homework assignments that required indepe
 
 ###HTML & CSS
 * Built a [login page] to heaven.
+* Made manual [edits to a Shopify store] using the Liquid templating languge.
 [login page]: https://github.com/rebeccapizano/Portfolio/tree/master/HTML-CSS/LoginPage
+[edits to a Shopify store]: https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/Edits.md
 
 ###C Sharp
 * Built a series of [apps] that demonstrated the basic use of different objects and features in C#.
