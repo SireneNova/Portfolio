@@ -26,6 +26,7 @@ namespace Test
                     while (1 <= n && n <= 10000) //constraint on size of n
                     {
                         int[] vals = new int[n];
+                        
                         for (int i = 0; i < n; i++)
                         {
                             string read = Console.In.ReadLine();
