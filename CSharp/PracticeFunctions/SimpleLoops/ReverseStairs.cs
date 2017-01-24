@@ -9,7 +9,7 @@ public class ReverseStairs
         {
             for (string i = ""; i.Length <= n; i = i + "#")
             {
-                string spaces = string.Concat(Enumerable.Repeat(" ", n - i.Length));
+                string spaces = string.Concat(Enumerable.Repeat(" ", n - i.Length)); //Enumerable.Repeat repeats number of indicated characters (spaces) up to the specified length
                 Console.WriteLine(spaces + i);
             }
         }
