@@ -17,13 +17,17 @@ ___
 
 **Reverse Staircase**
 * Wrote a for loop similar to the above staircase, which displays from left to right as such:
-`#
+```
+#
 ##
-###`
+###
+```
 * To reverse the direction of the staircase, I needed to add spaces in front of the # signs equal to n minus the number of # signs for each line:
-`  #
+```
+  #
  ##
-###`
+###
+```
 * To achieve this I used Enumerable.Repeat to repeat the number of spaces necessary for each line.
 * To constrain the input I wrote an if/else clause.
 
