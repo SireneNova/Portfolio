@@ -14,14 +14,14 @@ ___
 
 **Staircase**
 * Wrote a for loop that incrementally writes lines with increasing numbers of # signs up to the number (n) entered by the user.
-
-**Reverse Staircase**
-* Wrote a for loop similar to the above staircase, which displays from left to right as such:
+* This displays from left to right by default as such:
 ```
 #
 ##
 ###
 ```
+**Reverse Staircase**
+* Wrote a for loop similar to the above staircase.
 * To reverse the direction of the staircase, I needed to add spaces in front of the # signs equal to n minus the number of # signs for each line:
 ```
   #
