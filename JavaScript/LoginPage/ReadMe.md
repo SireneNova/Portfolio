@@ -18,7 +18,7 @@ Modify an HTML/CSS login page I made to meet the following requirements using Ja
 
 * The page works as expected.
 * I learned there are different formats for validating emails.
-* I also learned that it is not straightforward to disable CSS functionality such as hover. This had to be done indiractly by adding and removing html classes.
+* I also learned that it is not straightforward to disable CSS functionality such as hover. This had to be done indirectly by adding and removing html classes.
 * All files can be downloaded in loginPage.zip. The html file is loginStyled.html.
 
 [login page]: https://github.com/rebeccapizano/Portfolio/tree/master/HTML-CSS/LoginPage
