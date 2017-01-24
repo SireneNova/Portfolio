@@ -10,20 +10,20 @@ ___
 ####Steps Taken
 
 **Count Loop**
-*Wrote a for loop that incrementally writes lines with increasing numbers signs up to the number entered by the user (n).
+* Wrote a for loop that incrementally writes lines with increasing numbers signs up to the number (n) entered by the user.
 
 **Staircase**
-* Wrote a for loop that incrementally writes lines with increasing numbers of # signs up to the number entered by the user (n).
+* Wrote a for loop that incrementally writes lines with increasing numbers of # signs up to the number (n) entered by the user.
 
 **Reverse Staircase**
 * Wrote a for loop similar to the above staircase, which displays from left to right as such:
-#
+`#
 ##
-###
+###`
 * To reverse the direction of the staircase, I needed to add spaces in front of the # signs equal to n minus the number of # signs for each line:
-  #
+`  #
  ##
-###
+###`
 * To achieve this I used Enumerable.Repeat to repeat the number of spaces necessary for each line.
 * To constrain the input I wrote an if/else clause.
 
