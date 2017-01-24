@@ -25,9 +25,9 @@ namespace Test
 
                     while (1 <= n && n <= 10000) //constraint on size of n
                     {
-                        int[] vals = new int[n];
+                        int[] vals = new int[n]; //creats array of size n from input
                         
-                        for (int i = 0; i < n; i++)
+                        for (int i = 0; i < n; i++) //checks if vals[i] is non-integer
                         {
                             string read = Console.In.ReadLine();
                             try
@@ -61,7 +61,7 @@ namespace Test
                     break;
                 }
 
-                catch (System.FormatException e)
+                catch (System.FormatException e) //catch if n is non-integer
                 {
                     Console.WriteLine("Exception caught: {0}", e);
                     Console.WriteLine("\n Enter a number");                    
