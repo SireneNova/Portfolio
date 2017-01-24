@@ -1,11 +1,11 @@
-###News Page Styling with JavaScript and CSS Tools
+##News Page Styling with JavaScript and CSS Tools
 ___
-####Objective
+###Objective
 * Using JavaScript, on a news page created previously, add a menu of 3-4 items that extends downward when rolled over with a mouse.
 * Learn Lighbox and use it to add images to the page.
 * Learn Bootstrap and use it to enhance the page.
 
-####Steps Taken
+###Steps Taken
 * Previously made the original static HTML and CSS following a tutorial on LittleWebHut.com at this [link]. An image of this page is included as "before.png" in the beforeAfterPics folder.
 * My coding additions for this project are contained in first.html, style.css, and news.js.
 * Made "JS Menu" using mouseenter and mouseleave functions in news.js.
