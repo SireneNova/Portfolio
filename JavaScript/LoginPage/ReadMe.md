@@ -1,4 +1,4 @@
-## Login Page 2.0
+## Heaven Login Page 2.0
 ---
 ###Objective
 Modify an HTML/CSS login page I made to meet the following requirements using Javascript and jQuery:
