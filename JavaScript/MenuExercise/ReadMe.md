@@ -19,7 +19,7 @@ ___
 
 [link]: http://www.littlewebhut.com/html5/css_layout/
 [website]: http://lokeshdhakar.com/projects/lightbox2/
-####Results
+###Results
 All items I added worked. Through this project I learned:
 * How Bootstrap and Lightbox work, and how to use them.
 * How to create menu dropdowns using 3 different methods.
