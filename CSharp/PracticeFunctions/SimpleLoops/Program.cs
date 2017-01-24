@@ -6,5 +6,6 @@ namespace Test
         {
             Counting.Count(6);
             Stairs.Staircase(6);
+            ReverseStairs.RevStaircase(6);
         }
 }
