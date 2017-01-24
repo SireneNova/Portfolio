@@ -1,6 +1,6 @@
 ##Heaven Login Page
 
-All files are also contained in the compressed folder, loginPage.zip. A screenshot is shown at the bottom. I have since expanded on this project with JavaScript [here], where I added email validation and other features. 
+A screenshot is shown at the bottom. I have since expanded on this project with JavaScript [here], where I added email validation and other features. 
 ___
 ###Objective
 Create a login page using HTML5 and CSS3.
@@ -21,6 +21,8 @@ Through the design process, I learned:
 * That some browsers have individual CSS capabilities. I tried to make it as broadly compatible as possible.
 
 I was impressed that this markup language combo allowed me to achieve pretty much every effect I imagined.
+
+All files for viewing the page are contained in the compressed folder, loginPage.zip. 
 
 Here is a screenshot of the page in a desktop browser:
 
