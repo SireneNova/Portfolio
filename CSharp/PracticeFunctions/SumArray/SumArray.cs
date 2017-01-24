@@ -3,7 +3,7 @@ using System;
 
 namespace Test
 {
-    class sumArray
+    class SumArray
     {
         static void sum(int[] numbers) //numbers is the array, the input entries that come after the first input
         {            
