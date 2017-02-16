@@ -22,7 +22,7 @@ Postings are the result of projects or homework assignments that required indepe
 
 ###HTML & CSS
 * Built a [login page] to heaven.
-* Made manual [edits to a Shopify store theme] using the Liquid templating languge.
+* Made manual [edits to a Shopify store theme] using the Liquid templating language.
 [login page]: https://github.com/rebeccapizano/Portfolio/tree/master/HTML-CSS/LoginPage
 [edits to a Shopify store theme]: https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/Edits.md
 
