@@ -3,11 +3,11 @@ ___
 ###Objective
 Build a C# program that:
 * Moves files from one folder to another if they have been modified within 24 hours.
-* Have methods separate from the main method, whose functions are called from within the main method. 
+* Has methods separate from the main method, whose functions are called from within the main method. 
 
 ###Steps Taken
-* Used C# in Visual Studio 2015 and the System.IO type.
-* Made a method that moves files if changes within 24 h
+* Used C# in Visual Studio 2015 and the System.IO namespace.
+* Made a method that moves files if changed within 24 h.
 * Made methods that ask for source and destination directories.
 
 ###Results
