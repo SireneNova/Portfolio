@@ -8,14 +8,14 @@ namespace ConsoleDrillFileMove
         static void move(string source, string destination)
         {   
             string[] fileArray = Directory.GetFiles(source, "*.txt"); //my criteria: get files if ends in .txt
-            // Output of fileArray is in file paths rather than names.
+            // Output of fileArray is array of file paths rather than file names. There's no equivalent command that gets just names.
 
             int count = 0;
             foreach (string srcPath in fileArray)
             {
                 // Use Path class to manipulate file and directory paths.
-                string file = Path.GetFileName(srcPath);
-                string dstPath = Path.Combine(destination, file);
+                string file = Path.GetFileName(srcPath); //file name for each path in fileArray
+                string dstPath = Path.Combine(destination, file); //new path
                 DateTime mtime = File.GetLastWriteTime(srcPath); // Get time modified in local time
                 TimeSpan diff = DateTime.Now - mtime;
                 double diffSeconds = diff.TotalSeconds;
