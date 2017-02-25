@@ -2,7 +2,7 @@
 
 namespace Delegate
 {
-    //Delegate: internal by default, type safe function pointer
+    //Delegate: internal by default, type-safe function pointer
     //can be used to point to functions with a similar syntax, such as the 
     //way static void main does
    //This can point to any function with a void type and takes in a string parameter
@@ -30,4 +30,6 @@ namespace Delegate
         //must match the signature of the function it points to.
     }
 }
+
+//Source:
 //https://www.youtube.com/watch?v=D2h46fvQX04
