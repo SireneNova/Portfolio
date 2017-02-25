@@ -21,11 +21,11 @@ namespace Test
             {
                 try
                 {
-                    int n = Convert.ToInt32(Console.In.ReadLine());
+                    int n = Convert.ToInt32(Console.In.ReadLine()); //convert console input to 32 bit integer
 
-                    while (1 <= n && n <= 10000) //constraint on size of n
+                    while (1 <= n && n <= 10000) //constraint on size of n. the program just quits if out of range.
                     {
-                        int[] vals = new int[n]; //creats array of size n from input
+                        int[] vals = new int[n]; //creates array of size n from input
                         
                         for (int i = 0; i < n; i++) //checks if vals[i] is non-integer
                         {
