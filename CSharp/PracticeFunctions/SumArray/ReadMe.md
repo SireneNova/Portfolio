@@ -26,3 +26,4 @@ Write a program that sums over an array of integers and works in the following w
 ###Results
 * The program sums over an array as described in the objective.
 * The bulk of the code in the main function and entire program is for contraints and exception handling, which hinders readability, but makes the program easier to use.
+* As a bonus I learned how to change the entry point that the assembly uses when there are multiple Main functions, also called the setting the starup object. When I made this program it was in a project together with the SimpleLoop program. The entry point can be set in the project's properties under startup object.
