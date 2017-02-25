@@ -21,7 +21,8 @@ Write a program that sums over an array of integers and works in the following w
     * Created a while loop to constrain size of n.
     * Put a try-catch function in a for loop to check that each entry vals[i] is an integer.
     * Created an if-else function to constrain size of vals[i].
-
+    * Created an outer while loop so that the program will repeat if an exception is caught for the first entry.
+    
 ###Results
 * The program sums over an array as described in the objective.
 * The bulk of the code in the main function and entire program is for contraints and exception handling, which hinders readability, but makes the program easier to use.
