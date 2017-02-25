@@ -31,5 +31,8 @@ namespace Delegate
     }
 }
 
+//Good for when you need to send a mathod as a parameter to another method. 
+
 //Source:
 //https://www.youtube.com/watch?v=D2h46fvQX04
+//http://stackoverflow.com/questions/2019402/when-why-to-use-delegates
