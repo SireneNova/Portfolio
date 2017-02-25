@@ -5,13 +5,13 @@ namespace WindowsSeriesDrill
     //public- any other code can access
     public class Parent
     {
-        //can be accessed by same class or derived class inside or outside assembly
+        //protected - can be accessed by same class or derived class inside or outside assembly
         protected double getQuotient(double num1 = 1, double num2 = 1)
         {
             return num1 / num2;
         }
 
-        //anything in this assembly (cs file) can access. derived classes in any assemblies can access too.
+        //protected internal - anything in this assembly can access. derived classes in any assemblies can access too.
         protected internal int getSum(int num1 = 1, int num2 = 1)
         {
             return num1 + num2;
@@ -21,19 +21,19 @@ namespace WindowsSeriesDrill
 
     public class Child : Parent
     {
-        //getQuotient can be accessed here because Child is a derived class 
+        //getQuotient (protected) can be accessed here because Child is a derived class 
         public double addtoQuotient(double num1 = 1, double num2 = 1)
         {
             return 5 + getQuotient(num1, num2);
         }
 
-        //can be accessed by this assembly, but not other assemblies 
+        //internal - can be accessed by this assembly, but not other assemblies 
         internal int getProduct(int num1, int num2)
         {
             return num1 * num2;
         }
 
-        //can only be accessed within this class
+        //private - can only be accessed within this class
         private int getDiff(int num1, int num2)
         {
             return num1 - num2;
