@@ -3,7 +3,10 @@
 namespace OverloadingOverriding
 {
     // Overload
-    // Gives added function to a method (getSum here)
+    // Gives added function to a method (getSum here) in a class by defining it multiple times in different ways. 
+    // It has the same method name, but different arguments.
+    //In the following example, when the method getSum is run works for both integers or doubles because there is a method defined for them both.
+    
     public class Overload
     {
         public static int getSum(int num1 = 1, int num2 = 1)
