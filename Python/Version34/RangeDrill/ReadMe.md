@@ -4,11 +4,8 @@ ___
 ###Objective
 Display ranges in Python as requested in an assignment.
 
----
-
 ###Steps Taken
 * The questions are commented throughout the file. They ask to display specific ranges. The code that achieves it follows each.
-
 
 ###Results
 * What can be confusing at first about forward-stepping ranges is that the endpoint is always counted from a start of 0, so the range ends at a number behind the specified endpoint. 
